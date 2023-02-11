@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contactme.html">Contact me</a>
+            <a href="awards.html">Gallery</a>
+            
+        </nav>
+    </header>
+    
+    <h1>Gallery</h1>
+    <button onclick="theme()">Click Me!</button>
+    <div class="container">
+        <img src="20211109_073315.jpg">
+        <img src="20230124_064645_0 (1).jpg">
+        <img src="fi.jpg">
+        <img src="IMG-8e3d232cb4b56bea8523783a41855420-V-01.jpeg">
+        <img src="Screenshot_20230210_152408.jpg">
+        <img src="Screenshot_20230210_152426.jpg">
+
+    </div>
+
+    <footer>&copy; CopyRight 2023 By Sanjina Rajbhandari</footer>
+    <script>
+        function theme(){
+            var element=document.body;
+            element.classList.toggle("color-change");
+        }
+    </script>
+</body>
+</html>

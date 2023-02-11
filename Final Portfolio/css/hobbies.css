@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width:50%;
+    height: auto;
+    box-shadow: 10px 5px 5px #333;
+}
+.box img{
+    width: 50%;
+    height: auto;
+    
+}
+
+h3{
+    font-family: 'Zeyada', cursive;
+    font-size: 35px;
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contactme.html">Contact me</a>
+            <a href="awards.html">Gallery</a>
+            
+        </nav>
+    </header>
+    <h1>My Hobbies</h1>
+    <button onclick="theme()">Click Me!</button>
+    <div class="flexbox">
+     <div class="box box1">
+     <img src="basketball.jpg" alt="">
+     <h3>Basketball</h3>
+     <p>Basketball: where my heart and soul soar on the court.</p>
+     </div>
+     <div class="box box1">
+        <img src="guitar.jpg" alt="">
+        <h3>Guitar</h3>
+        <p>Fingers strumming, soul singing. Guitar is my passion.</p>  
+    </div>
+    <div class="box box1">
+        <img src="singing.png" alt="">
+        <h3>Singing</h3>
+        <p>Singing my heart out and creating memories through music.</p> 
+    </div>
+    <div class="box box1">
+        <img src="s.jpg" alt="">
+     <h3>Swimming</h3>
+     <p>Going the distance in the pool, and in life.</p>
+    </div>
+    <div class="box box1">
+        <img src="photography.jpg" alt="">
+        <h3>Photography</h3>
+        <p>Turning life's moments into timeless works of art through the lens of my camera.</p> 
+    </div>
+    </div>
+    <footer>&copy; CopyRight 2023 By Sanjina Rajbhandari</footer>
+    <script>
+        function theme(){
+            var element=document.body;
+            element.classList.toggle("color-change");
+        }
+    </script>
+</body>
+</html>

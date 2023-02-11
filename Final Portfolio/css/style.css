@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  header nav {
+    width:100%;
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header nav a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .home{
+    width:100%;
+    display:flex;
+  }
+
+  .right{
+    width:50%;
+  }
+  
+  .left{
+    width:50%;
+  }
+  .left img{
+    margin-top: 50px;
+    width:60%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .left img:hover {
+    transform: scale(0.5);
+  }
+
+  .right h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size:60px;
+    margin-top: 130px;
+  }
+
+  .right p{
+    font-size: 23px;
+    line-height: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  /* h1, h3, h4 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #more-about-me {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  #education, #awards, #hobbies, #skills {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #333;
+  }
+   */
+   footer{
+    background-color: #333;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    color: #fff;
+   }
+   .color-change{
+    background-color: black;
+    color: white;
+   }
+   button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: black;
+    background-color: bisque;
+    border-style: none;
+   }
